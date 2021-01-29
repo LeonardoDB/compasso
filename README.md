@@ -49,7 +49,7 @@ Get cities:
 | ---------- | -------------- | ------------------------------------------------------------------------------------------ |
 | `POST`     | `clients`      | `{"name": "Leonardo", "gender": "masculino", "birth": "22/11/1998", "city_id": "city_id"}` |
 | `PUT`      | `clients/{id}` | `{"name": "João"}`                                                                         |
-| `GET/HEAD` | `clients/{id}` | `{"name": "Leonardo","id": "city_id"} or {}`                                               |
+| `GET/HEAD` | `clients`      | `{"name": "Leonardo","id": "city_id"} or {}`                                               |
 | `DELETE`   | `clients/{id}` | `{}`                                                                                       |
 
 Get clients:
