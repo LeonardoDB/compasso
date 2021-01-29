@@ -66,5 +66,5 @@ Get clients:
 Para executar os testes da aplicação basta rodar o seguinte comando:
 
 ```
- $ yarn teste
+ $ yarn test
 ```
