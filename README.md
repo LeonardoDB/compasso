@@ -19,10 +19,11 @@ $ cd compasso
 - database: uol_compasso
 ```
 
-Apos criado você devera rodar o comando yarn para instalar todas as dependências e rodar um yarn dev:server para inicializar a aplicação.
+Após criado você deverá rodar o comando yarn para instalar todas as dependências, o migration:run para criar a estrutura na base de dados e rodar um yarn dev:server para inicializar a aplicação.
 
 ```
 $ yarn
+$ yarn typeorm migration:run
 $ yarn dev:server
 ```
 
