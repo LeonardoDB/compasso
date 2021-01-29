@@ -31,6 +31,8 @@ $ yarn dev:server
 
 ## Routes List:
 
+**⚠️ Dentro do projeto tem um arquivo chamado Insomnia_2021-01-29.json, ele pode ser utilizado para importar as routes para o Insomnia.**
+
 ### Cities
 
 | Method     | URI      | Data                                                      |
